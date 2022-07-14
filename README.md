@@ -5,5 +5,5 @@ Müşteri fotoğraflarına watermark ekleme işlemi, API projesinde dar boğaz y
 Veritabanı olarak ***PostgreSQL*** kullanılmıştır.
 ***IOC*** container olarak ***Autofac*** kullanılmıştır. Autofac bize Interfacelerin karşılığı olan somut class ları configüre edebileceğimiz merkezi yapıyı sunan container teknolojisidir.
 ***AOP***(Aspect Oriented Programming) mimarisi kullanılarak kesişen ilgilerin ayrılmasını sağlanmıştır. Her methoda güvenlik için tekrar tekrar kod yazmamak için kullanılmıştır.
-![alt text](https://www.codeproject.com/KB/Articles/aop2/attributes.gif | width=100)
+![alt text](https://www.codeproject.com/KB/Articles/aop2/attributes.gif)
 Entity ler ile DTO sınıflarını eşleştirmek için ***AutoMapper*** kütüphanesi kullanılmıştır.
